@@ -8,7 +8,7 @@
 
 ## About the project
 
-**Resonance** is a Content-based Recommendation System which suggests songs given user playlists. It has approximately *60,000* songs in its database extracted and transformed using the **Spotify 1 Million Dataset**
+**Resonance** is a Content-based Recommendation System which suggests songs given user playlists. It has approximately *60,000* songs in its database, extracted and transformed using the **Spotify Million Playlist Dataset**
 
 ### Spotify Million Playlist Dataset
 
