@@ -12,20 +12,6 @@
 
 A dataset of 1 million playlists consisting of over 2 million unique tracks by nearly 300,000 artists. For simplicity, I will just extract the first 1000 playlists which contain approximately 60,000 tracks.
 
-
-### Song features data
-
-1. ***Metadata***
-   - id
-   - genre
-   - artist_pop
-   - track_pop
-
-2. ***Audio features***
-   - **Mood**: danceability, valence, energy, tempo
-   - **Properties**: loundness, speechiness, instrumentalness
-   - **Metadata**: key, mode
-
 ## Requirements
 
 There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
