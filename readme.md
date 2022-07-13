@@ -8,7 +8,7 @@
 
 ## About the project
 
-**Resonance** is a Content-based Recommendation System which suggests songs given user playlists. It has approximately *60,000* songs in its database, extracted and transformed using the **Spotify Million Playlist Dataset**
+**Resonance** is a Content-based Recommendation System which suggests songs given user playlists. It has approximately *60,000* songs in its database, extracted and transformed using the **Spotify Million Playlist Dataset**.
 
 ### Spotify Million Playlist Dataset
 
@@ -23,11 +23,11 @@ There are some general library requirements for the project and some which are s
 - `plotly`
 - `sklearn`
 
-**Note**: It is recommended to use ***Heroku*** for deploying the application
+**Note**: It is recommended to use ***Heroku*** for deploying the application.
 
 ## Usage
 
-We will run the whole `model` package 
+We will run the whole `model` package .
 
 ```shell
 python -m model  
@@ -52,9 +52,9 @@ python -m model
 
 ### Authentication
 
-We need to create the `ClientID` and `SecretID` so that we can use to send our request to Spotify API. Remember to place them securedly in a `.env` file 
+We need to create the `ClientID` and `SecretID` so that we can use to send our request to Spotify API. Remember to place them securedly in a `.env` file .
 
-We also need an URI to perform any function with the API referring to an object in Spotify. The URI of any Spotify object is contained in its shareable link
+We also need an URI to perform any function with the API referring to an object in Spotify. The URI of any Spotify object is contained in its shareable link.
 
 ```python
 playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=1333723a6eff4b7f"
