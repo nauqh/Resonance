@@ -25,25 +25,6 @@ There are some general library requirements for the project and some which are s
 
 **Note**: It is recommended to use ***Streamlit*** for deploying the application
 
-## Data scraping
-
-### Authentication
-
-We need an URI to perform any function with the API referring to an object in Spotify. The URI of any Spotify object is contained in its shareable link
-
-```python
-playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=1333723a6eff4b7f"
-```
-**Note**: When working directly with Spotify API, the song URI has the format `spotify:track:[id]`
-
-### Scrapping
-
-*The process including*:
-
-- Extract URI from share link
-- Use Spotify API to request song features from playlist using playlist URI
-- Read json files and select song features
-
 ## Usage
 
 We will run the whole `model` package 
@@ -66,4 +47,31 @@ python -m model
 - `extract.py`: Extract playlist data and song features
 - `preprocess.py`: Transform audio features, generate addition features and normalize the data
 - `recommend.py`: Perform recommendation
+
+## Data scraping
+
+### Authentication
+
+We need an URI to perform any function with the API referring to an object in Spotify. The URI of any Spotify object is contained in its shareable link
+
+```python
+playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=1333723a6eff4b7f"
+```
+**Note**: When working directly with Spotify API, the song URI has the format `spotify:track:[id]`
+
+### Scrapping
+
+*The process including*:
+
+- Extract URI from share link
+- Use Spotify API to request song features from playlist using playlist URI
+- Read json files and select song features
+
+## Data preprocess
+
+### Genre preprocess
+
+### TF-IDF encoding
+
+### Normalization
 <!--eof>
