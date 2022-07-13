@@ -1,4 +1,4 @@
-# 📻Resonance - A simple recommendation system
+# 📻Resonance - A tiny recommendation system
 
 ![Python](https://img.shields.io/badge/Made%20With-Python%203.8-blue.svg?style=for-the-badge&logo=Python)
 ![Pandas](https://img.shields.io/badge/plotly%20-%2300416A.svg?&style=for-the-badge&logo=pandas&logoColor=white)
@@ -6,7 +6,9 @@
 
 **Update** (26 Jun. 2022): Try using Selenium for Youtube scrapping.
 
-## Dataset Information
+## About the project
+
+Resonance is a Content-based Recommendation System which suggests songs given user playlists. It has approximately 160,000 songs in its database extracted and transform from the **Spotify 1 Million Dataset**
 
 ### Spotify Million Playlist Dataset
 
@@ -19,7 +21,7 @@ There are some general library requirements for the project and some which are s
 - `Spotify Developers`
 - `regex`
 - `plotly`
-- `json`
+- `sklearn`
 
 **Note**: It is recommended to use ***Streamlit*** for deploying the application
 
