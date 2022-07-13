@@ -18,12 +18,12 @@ A dataset of 1 million playlists consisting of over 2 million unique tracks by n
 
 There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
 
-- `Spotify Developers`
+- `spotipy`
 - `regex`
 - `plotly`
 - `sklearn`
 
-**Note**: It is recommended to use ***Streamlit*** for deploying the application
+**Note**: It is recommended to use ***Heroku*** for deploying the application
 
 ## Usage
 
@@ -52,7 +52,9 @@ python -m model
 
 ### Authentication
 
-We need an URI to perform any function with the API referring to an object in Spotify. The URI of any Spotify object is contained in its shareable link
+We need to create the `ClientID` and `SecretID` so that we can use to send our request to Spotify API. Remember to place them securedly in a `.env` file 
+
+We also need an URI to perform any function with the API referring to an object in Spotify. The URI of any Spotify object is contained in its shareable link
 
 ```python
 playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=1333723a6eff4b7f"
