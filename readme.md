@@ -76,7 +76,9 @@ Due to the import format of a dataframe, we need to convert the `genres` columns
 ### TF-IDF encoding
 
 TF-IDF, also known as Term Frequency-Inverse Document Frequency, is a tool to quantify words in a set of documents. The goal of TF-IDF is to show the importance of a word in the documents and the corpus. The general formula for calculating TF-IDF is:
+
 $$ \text{Term Frequency}\times\text{Inverse Document Frequency}$$
+
 - **Term Frequency (TF)**: The number of times a term appears in each document divided by the total word count in the document.
 - **Inverse Document Frequency (IDF)**: The log value of the document frequency. Document frequency is the total number of documents where one term is present.
 
