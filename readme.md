@@ -4,11 +4,11 @@
 ![Pandas](https://img.shields.io/badge/plotly%20-%2300416A.svg?&style=for-the-badge&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/pandas%20-%23150458.svg?&style=for-the-badge&logo=plotly&logoColor=white)
 
-**Update** (26 Jun. 2022): Try using Selenium for Youtube scrapping.
+**Update** (13 July 2022): Try implementing Collaborative Filtering
 
 ## About the project
 
-Resonance is a Content-based Recommendation System which suggests songs given user playlists. It has approximately 160,000 songs in its database extracted and transform from the **Spotify 1 Million Dataset**
+**Resonance** is a Content-based Recommendation System which suggests songs given user playlists. It has approximately *600,000* songs in its database extracted and transformed using the **Spotify 1 Million Dataset**
 
 ### Spotify Million Playlist Dataset
 
