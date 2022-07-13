@@ -1,4 +1,4 @@
-# Resonance - A simple recommendation system
+# 📻Resonance - A simple recommendation system
 
 ![Python](https://img.shields.io/badge/Made%20With-Python%203.8-blue.svg?style=for-the-badge&logo=Python)
 ![Pandas](https://img.shields.io/badge/plotly%20-%2300416A.svg?&style=for-the-badge&logo=pandas&logoColor=white)
@@ -6,16 +6,12 @@
 
 **Update** (26 Jun. 2022): Try using Selenium for Youtube scrapping.
 
-</br>
-
 ## Dataset Information
 
 ### Spotify Million Playlist Dataset
 
-</br>
 A dataset of 1 million playlists consisting of over 2 million unique tracks by nearly 300,000 artists. For simplicity, I will just extract the first 1000 playlists which contain approximately 60,000 tracks.
 
-</br>
 
 ### Song features data
 
@@ -30,16 +26,6 @@ A dataset of 1 million playlists consisting of over 2 million unique tracks by n
    - **Properties**: loundness, speechiness, instrumentalness
    - **Metadata**: key, mode
 
-</br>
-
-## General pipeline
-
-</br>
-
-![Procedure](data/procedure.png)
-
-</br>
-
 ## Requirements
 
 There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
@@ -50,8 +36,6 @@ There are some general library requirements for the project and some which are s
 - `json`
 
 **Note**: It is recommended to use ***Streamlit*** for deploying the application
-
-</br>
 
 ## Data scraping
 
@@ -72,8 +56,6 @@ playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=133
 - Use Spotify API to request song features from playlist using playlist URI
 - Read json files and select song features
 
-</br>
-
 ## Usage
 
 We will run the whole `model` package 
@@ -81,9 +63,6 @@ We will run the whole `model` package
 ```shell
 python -m model  
 ```
-
-
-</br>
 
 ## Development
 
