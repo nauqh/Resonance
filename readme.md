@@ -8,7 +8,7 @@
 
 ## About the project
 
-**Resonance** is a Content-based Recommendation System which suggests songs given user playlists. It has approximately *600,000* songs in its database extracted and transformed using the **Spotify 1 Million Dataset**
+**Resonance** is a Content-based Recommendation System which suggests songs given user playlists. It has approximately *60,000* songs in its database extracted and transformed using the **Spotify 1 Million Dataset**
 
 ### Spotify Million Playlist Dataset
 
@@ -29,7 +29,7 @@ There are some general library requirements for the project and some which are s
 
 ### Authentication
 
-We need an URI to perform any function with the API referring to an object in Spotify. The URI of any Spotify object is contained in its shareable link.</br>
+We need an URI to perform any function with the API referring to an object in Spotify. The URI of any Spotify object is contained in its shareable link
 
 ```python
 playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=1333723a6eff4b7f"
