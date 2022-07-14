@@ -4,7 +4,7 @@
 ![Pandas](https://img.shields.io/badge/plotly%20-%2300416A.svg?&style=for-the-badge&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/pandas%20-%23150458.svg?&style=for-the-badge&logo=plotly&logoColor=white)
 
-**Update** (13 July 2022): Try implementing Collaborative Filtering
+**Update** (14 July 2022): Implement Collaborative Filtering using Matthew's Correlation Coefficient.
 
 ## About the project
 
