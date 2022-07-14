@@ -22,6 +22,8 @@ There are some general library requirements for the project and some which are s
 - `regex`
 - `plotly`
 - `sklearn`
+  
+Please read the `requirements.txt` file for more information.
 
 **Note**: It is recommended to use ***Heroku*** for deploying the application.
 
