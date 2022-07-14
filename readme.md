@@ -79,7 +79,7 @@ playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=133
 
 ### Genre preprocess
 
-Due to the import format of a dataframe, we need to convert the `genres` columns into a list. This is done by using the `split()` function
+Due to the import format of a dataframe, we need to convert the `genres` columns into a list. This is done by using the `split()` function.
 
 ### TF-IDF encoding
 
@@ -101,7 +101,7 @@ To solve this problem, we used the `MinMaxScaler()` function from `scikit learn`
 
 ## Recommendation model
 
-### 1. Generate `playlist vector` and `repository`
+### 1. Generate playlist vector and repository
 
 #### Generate playlist vector
   - Input: playlist (preprocessed)
@@ -111,7 +111,7 @@ To solve this problem, we used the `MinMaxScaler()` function from `scikit learn`
   - We create a repository of songs which are not in the playlist, these will be our suggest candidates
   - Method: select songs from `features.csv` which are not in user playlist using song ids
 
-### 2. Generate `recommendation`
+### 2. Generate recommendation
 
 Find similarity between `playlist` and `repository` using cosine similarity. Extract top songs with highest similarity.
 <!--eof>
