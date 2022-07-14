@@ -1,4 +1,4 @@
-# 📻Resonance - A tiny recommendation system
+# Resonance - A tiny recommendation system
 
 ![Python](https://img.shields.io/badge/Made%20With-Python%203.8-blue.svg?style=for-the-badge&logo=Python)
 ![Pandas](https://img.shields.io/badge/plotly%20-%2300416A.svg?&style=for-the-badge&logo=pandas&logoColor=white)
@@ -45,7 +45,7 @@ python -m model
 
 ### Modules
 - `extract.py`: Extract playlist data and song features
-- `preprocess.py`: Transform audio features, generate addition features and normalize the data
+- `preprocess.py`: Transform audio features, generate additional fields  and normalize numerical data
 - `recommend.py`: Perform recommendation
 
 ## Data scraping
