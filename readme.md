@@ -54,7 +54,7 @@ python -m model
 - `preprocess.py`: Transform audio features, generate additional fields  and normalize numerical data
 - `recommend.py`: Perform recommendation
 
-## Data scraping
+## Data extract
 
 ### Authentication
 
@@ -79,7 +79,7 @@ playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=133
 
 ### Genre preprocess
 
-Due to the import format of a dataframe, we need to convert the `genres` columns into a list. This is done by using the `split()` function:
+Due to the import format of a dataframe, we need to convert the `genres` columns into a list. This is done by using the `split()` function
 
 ### TF-IDF encoding
 
@@ -98,4 +98,20 @@ In this project, the documents are analogous to songs. Therefore, we are calcula
 Lastly, we need to normalize some variables. As shown below, the popularity variables are not normalized to 0 to 1, which would be problematic in the consine similarity function later on. In addition, the audio features are also not normalized. 
 
 To solve this problem, we used the `MinMaxScaler()` function from `scikit learn` which automatically scales all values from the min and max into a range of 0 to 1.
+
+## Recommendation model
+
+### 1. Generate `playlist vector` and `repository`
+
+#### Generate playlist vector
+  - Input: playlist (preprocessed)
+  - Method: create playlist vector by calculate the sum of each feature 
+  - Output: vector summarize playlist features
+#### Recommend repository
+  - We create a repository of songs which are not in the playlist, these will be our suggest candidates
+  - Method: select songs from `features.csv` which are not in user playlist using song ids
+
+### 2. Generate `recommendation`
+
+Find similarity between `playlist` and `repository` using cosine similarity. Extract top songs with highest similarity.
 <!--eof>
